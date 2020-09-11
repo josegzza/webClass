@@ -1,0 +1,13 @@
+.red {
+      border-style: solid;
+      border-color: red;
+    }
+    .blue {
+      border-color: blue;
+      border-style: solid;
+    }
+    .white {
+      border-color: white;
+      border-style: solid;
+    }
+}
