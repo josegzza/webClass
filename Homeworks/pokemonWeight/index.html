@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab items list</title>
+  <script src="./utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    // DOMContentLoaded wait until all dom is loaded, check the docs in below link
+    // https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
+    document.addEventListener("DOMContentLoaded", (_) => {
+      // use here what you have in utils.js
+    });
+  </script>
+</head>
+<body>
+    <h1>Pokemon weight search</h1>
+    <p>Let's search your favorite Pokemon!</p>
+  <div id="container">
+    name: <input type="text" id="pokemon-name">
+    <button id="add-item"> search</button>
+  </div>
+  <ul id="list-items">
+
+  </ul>
+  <div id="total"></div>
+  <div id="error"></div>
+</body>
+</html>
