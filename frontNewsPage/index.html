@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html id="tema" class="claro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jose's site</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' /> 
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <nav>
+      <div class="logo"><img src="img/logo.png"></div>
+      <a href="#"><div class="element">Home</div></a>
+      <a href="#"><div class="element">About Us</div></a>
+      <a href="#"><div class="element">Services</div></a>
+      <a href="#"><div class="element">Contact</div></a>
+    </nav>
+    <div class="selector">
+      <a class= "ligaclaro" onclick="myFunctionClaro()">Claro</a> | <a class= "ligaoscuro" onclick="myFunctionOscuro()">Oscuro</a>
+    </div>  
+    <div class="cuerpo">
+        <div> 
+          <h2>Column 1</h2>
+          <img src="img/thumbnail.jpeg" style="width: 100%;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices tellus sit amet porta dignissim. Donec ut gravida diam. Proin luctus erat neque, et lobortis lorem ultricies sed. Nulla sit amet purus bibendum, scelerisque sem vel, dictum orci. Morbi fermentum augue vel sollicitudin tincidunt. Pellentesque ornare lorem eget vestibulum auctor. Suspendisse et volutpat dui, gravida hendrerit justo. Pellentesque tempor, ante at sagittis suscipit, lorem dolor ultricies tortor, vitae mattis magna sem ac dolor. Duis venenatis neque nec elit fringilla sagittis. Suspendisse potenti.</p>
+        </div>
+        <div> 
+          <h2>Column 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices tellus sit amet porta dignissim. Donec ut gravida diam. Proin luctus erat neque, et lobortis lorem ultricies sed. Nulla sit amet purus bibendum, scelerisque sem vel, dictum orci. Morbi fermentum augue vel sollicitudin tincidunt. Pellentesque ornare lorem eget vestibulum auctor. Suspendisse et volutpat dui, gravida hendrerit justo. Pellentesque tempor, ante at sagittis suscipit, lorem dolor ultricies tortor, vitae mattis magna sem ac dolor. Duis venenatis neque nec elit fringilla sagittis. Suspendisse potenti.</p>
+        </div>
+        <div> 
+          <h2>Column 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices tellus sit amet porta dignissim. Donec ut gravida diam. Proin luctus erat neque, et lobortis lorem ultricies sed. Nulla sit amet purus bibendum, scelerisque sem vel, dictum orci. Morbi fermentum augue vel sollicitudin tincidunt. Pellentesque ornare lorem eget vestibulum auctor. Suspendisse et volutpat dui, gravida hendrerit justo. Pellentesque tempor, ante at sagittis suscipit, lorem dolor ultricies tortor, vitae mattis magna sem ac dolor. Duis venenatis neque nec elit fringilla sagittis. Suspendisse potenti.</p>
+        </div>
+    </div>
+    <div class="footer">
+      Copyright 2020 All Rights Reserved
+    </div>
+    <script type="text/javascript">
+    function myFunctionOscuro() {
+      var element = document.getElementById("tema");
+      element.classList.remove("claro");
+      element.classList.add("oscuro");
+    }
+    function myFunctionClaro() {
+      var element = document.getElementById("tema");
+      element.classList.remove("oscuro");
+      element.classList.add("claro");
+    }
+    </script> 
+  </body>
+</html>
