@@ -1,0 +1,80 @@
+/* Body Style*/
+body {background-color: rgb(60, 160, 206);}
+h4{
+    font:Arial;
+    font-size: 20px;
+}
+p{
+    font:Arial;
+    font-size: 20px;
+}
+
+.center{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.imgHeader {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #F3F216;
+    border: 3px solid #D92C29;
+  }
+
+  input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 8px 24px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font: Arial;
+}
+
